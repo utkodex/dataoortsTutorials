@@ -8,8 +8,8 @@ import utils
 # -------------------------
 
 # 👉 Change these before running
-PATH = r"D:\code\Course\SLM"
-ssh_cmd = r'ssh -i temporary.pem ubuntu@38.80.123.114 -p 22'
+PATH = r"D:\code\Course\SLM\tempfile"
+ssh_cmd = r'ssh -i temporary.pem ubuntu@149.36.1.41 -p 22'
 
 
 PUBLIC_IP = utils.extract_public_ip(ssh_cmd)
